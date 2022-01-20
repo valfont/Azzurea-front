@@ -1,0 +1,204 @@
+.logo {
+  position: absolute;
+  left: 8.4%;
+  right: 82.99%;
+  top: 6%;
+  bottom: 95.85%;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.reservation {
+  position: absolute;
+  left: 38.26%;
+  right: 56.46%;
+  top: 10%;
+  bottom: 97.23%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #232323;
+}
+
+.nosvaleurs {
+  position: absolute;
+  left: 47.43%;
+  right: 47.36%;
+  top: 10%;
+  bottom: 97.23%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #232323;
+}
+
+.nosflottes {
+  position: absolute;
+  left: 56.74%;
+  right: 38.33%;
+  top: 10%;
+  bottom: 97.23%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #232323;
+}
+
+.contact {
+  position: absolute;
+  left: 66.67%;
+  right: 29.72%;
+  top: 10%;
+  bottom: 97.23%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #232323;
+}
+
+.telephone {
+  position: absolute;
+  left: 77.08%;
+  right: 9.03%;
+  top: 8%;
+  background: linear-gradient(0deg, #236a82, #236a82),
+    linear-gradient(180deg, #236a82 0%, #50b2d3 100%), #c4c4c4;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 1%;
+}
+
+.slogan1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.slogan2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #232323;
+  margin-bottom: 8%;
+}
+
+.form {
+  position: absolute;
+  height: 53%;
+  left: 52.29%;
+  right: 8.96%;
+  top: 6%;
+  bottom: 75.94%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  width: 558px;
+  height: 470px;
+  margin-top: 10%;
+  padding: 2%;
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.section-left {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  right: 12.96%;
+}
+
+header {
+  margin-top: 5%;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.radio label {
+  margin-left: 1rem;
+}
+
+.input-radio-style {
+  margin-bottom: 1rem;
+}
+
+input {
+  background-color: transparent;
+}
+
+.logoTransparent {
+  margin-left: 10%;
+  opacity: 0.5;
+}
+
+.input-style {
+  background-color: violet;
+  border-radius: 8px;
+  margin: 1.25rem auto;
+  height: 1.75rem;
+  width: 90%;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.input-style::placeholder {
+  color: white;
+  opacity: 1 !important;
+}
+
+.input-style input {
+  margin-left: 10px;
+  outline: inherit;
+  border: none;
+}
+
+.input-style-radio2 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  background: linear-gradient(0deg, #236a82, #236a82),
+    linear-gradient(180deg, #236a82 0%, #50b2d3 100%), #c4c4c4;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 3%;
+  width: 95%;
+  margin: 1.25rem auto;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
