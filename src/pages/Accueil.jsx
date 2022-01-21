@@ -1,10 +1,11 @@
 import React from "react"
 import background from "../assets/svg/background.svg"
-import logo from "../assets/svg/logo.svg"
 import logoTransparent from "../assets/svg/logoTransparent.svg"
 import date from "../assets/svg/date.svg"
 import heure from "../assets/svg/heure.svg"
 import depart from "../assets/svg/depart.svg"
+import Navbar from "../components/Navbar"
+import "../style/accueil.css"
 
 
 const Accueil =()=>{
@@ -16,17 +17,7 @@ const Accueil =()=>{
       };
 return(
     <div>
-        <header>
-            <img className="logo" src={logo} alt="logo" />
-            <nav>
-                <a className="reservation" href="#Reservation">Réservation</a>
-                <a className="nosvaleurs" href="#NosValeurs">Nos valeurs</a>
-                <a className="nosflottes" href="#NosFlottes">Nos flottes</a>
-                <a className="contact" href="#Contact">Contact</a>
-                <button className="telephone" ><i class="fas fa-phone-alt"></i> +33 01 00 00 00 00</button>
-            </nav>
-        </header>
-
+        <Navbar/>
         <div>
             <div className="section-left">
                 <p className="slogan1">voyager en toute sérénité</p>

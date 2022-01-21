@@ -1,7 +1,3 @@
-.background2 {
-  opacity: 0.08;
-}
-
 h2 {
   font-style: normal;
   font-weight: bold;
@@ -12,6 +8,7 @@ h2 {
   position: relative;
   display: flex;
   align-items: center;
+  margin-top: 10%;
 }
 
 h2::after {
@@ -29,11 +26,57 @@ h2::after {
   right: 63.89%;
   top: 102.71%;
   bottom: 66.5%;
+  z-index: 6;
+  top: 15vh;
 }
 
 article {
   width: 50%;
   text-align: justify;
-  margin-top: 10%;
+  padding-top: 10%;
   margin-left: 40%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleH3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #236a82;
+  margin: 6% auto;
+  width: 10%;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bacground2 {
+  position: absolute;
+  z-index: 0;
+}
+
+.on {
+  position: absolute;
+  z-index: 1;
+  top: 86vh;
 }

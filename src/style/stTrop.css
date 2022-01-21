@@ -1,0 +1,66 @@
+.titleH3b {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: black;
+  width: 90%;
+  text-transform: uppercase;
+  margin-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.titleH3b::after {
+  content: "";
+  display: inline-block;
+  width: 40%;
+  height: 4px;
+  background: linear-gradient(0deg, #236a82, #236a82), #ffffff;
+  margin-left: auto;
+}
+
+section {
+  margin: 0;
+}
+
+.title-white {
+  color: #ffffff !important;
+  text-transform: uppercase;
+  width: 120%;
+}
+
+.justify {
+  width: 150%;
+  text-align: justify;
+}
+
+.gradient {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #215261 89.9%),
+    url("../assets/svg/stTrop1.svg");
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 380px 380px 380px;
+  /* align-items: center;
+  position: absolute; */
+  width: 80%;
+  margin: auto;
+  color: #ffffff;
+  grid-gap: 4px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.img-grid {
+  margin: 10px;
+  position: relative;
+}
+
+.marginAuto {
+  margin: auto;
+  width: 80%;
+}

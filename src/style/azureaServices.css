@@ -1,0 +1,50 @@
+.grid2 {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+}
+
+.titleH3a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 90%;
+  text-transform: uppercase;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.titleH3a::after {
+  content: "";
+  display: inline-block;
+  width: 72%;
+  height: 4px;
+  background: #ffffff;
+  margin-left: auto;
+}
+
+section {
+  margin: 0;
+}
+
+.title-white {
+  color: #ffffff !important;
+  text-transform: uppercase;
+  width: 120%;
+}
+
+.justify {
+  width: 150%;
+  text-align: justify;
+}
+
+h3 {
+  margin-block-start: 0em;
+}
