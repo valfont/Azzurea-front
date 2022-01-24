@@ -1,7 +1,6 @@
 import React from "react"
 
 // IMPORT ASSETS
-import galerie from "../assets/svg/galerie.svg"
 import logoTransparent from "../assets/svg/logoTransparent.svg"
 import Navbar from "../components/Navbar"
 import photoAvatar from "../assets/svg/photoAvatar.svg"
@@ -65,16 +64,8 @@ return(
         <Grid3/>
 
     {/* FOOTER PAGE */}
-    <div className="background4">
-        <img className="logoTransparent2" src={logoTransparent} alt="logoTransparent" />
-        <p className="text">A partir de ou à destination de l’aéroport ou de la gare, depuis ou vers la région de St-Tropez, nos chauffeurs tous bilingues et expérimentés vous attendent, vous accueillent, vous aident à transporter vos bagages.</p>
-        <img className="galerie" src={galerie} alt="galerie" />           
-            <br />
-            <br />
-            <br />
-            <br />
         <Footer/>
-        </div>
+       
 
     </div>
 )
