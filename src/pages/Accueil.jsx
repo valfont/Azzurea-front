@@ -1,73 +1,81 @@
 import React from "react"
-import background from "../assets/svg/background.svg"
+
+// IMPORT ASSETS
+import galerie from "../assets/svg/galerie.svg"
 import logoTransparent from "../assets/svg/logoTransparent.svg"
-import date from "../assets/svg/date.svg"
-import heure from "../assets/svg/heure.svg"
-import depart from "../assets/svg/depart.svg"
 import Navbar from "../components/Navbar"
+import photoAvatar from "../assets/svg/photoAvatar.svg"
+
+// IMPORT STYLES
 import "../style/accueil.css"
+import "../style/azureaServices.css"
+import "../style/footer.css"
+import "../style/stTrop.css"
+
+// IMPORT COMPONENTS
+import Footer from "../components/Footer"
+import Form from "../components/Form"
+import Grid from "../components/Grid"
+import Grid2 from "../components/Grid2"
+import Grid3 from "../components/Grid3"
 
 
 const Accueil =()=>{
-    let sectionStyle  = {
-        width: "100vw",
-        height: "85vh",
-        backgroundSize: "cover",
-        backgroundImage:  `url(${background})`
-      };
 return(
     <div>
         <Navbar/>
         <div>
+
+                {/* ACCUEIL */}
             <div className="section-left">
                 <p className="slogan1">voyager en toute sérénité</p>
                 <p className="slogan2">avec azurea limousines</p>
                 <img className="logoTransparent" src={logoTransparent} alt="logoTransparent" />
             </div>
             <section className="section-right">
-                <form className="form">
-                    <div className="radio">
-                        <div className="input-radio-style"><input type="radio" name="reservation" value="reserver" id="1"/>
-                        <label htmlFor="1">Réserver votre trajet</label></div>
-                        
-                        <div className="input-radio-style">  <input type="radio" name="reservation" value="mad" id="2"/>
-                        <label htmlFor="2">Mise à disposition</label></div>
-                      
-                        <div className="input-radio-style">     <input type="radio" name="reservation" value="reserverMad" id="3"/>
-                        <label htmlFor="3">Réserver votre trajet + Mise à disposition</label></div>
-                   
-                    </div>
-                    <div className="input-style">
-                        <img src={date} alt="icon" />
-                        <input type="text" placeholder="Date"/>
-                    </div>   
-                    <div className="input-style">
-                        <img src={heure} alt="icon" />
-                        <input type="text" placeholder="Heure"/>
-                    </div>
-                    <div className="input-style">
-                    <img src={depart} alt="icon" />
-                        <input type="text" placeholder="Départ"/>
-                    </div>
-                    <div className="input-style">
-                    <img src={depart} alt="icon" />
-                        <input type="text" placeholder="Arrivée"/>
-                    </div>
-                    <div className="input-style-radio2">     
-                        <input type="radio" name="trajet" value="Aller" id="aller"/>
-                        <label htmlFor="aller">Trajet Aller</label>
-                        <input type="radio" name="trajet" value="AllerRetour" id="allerretour"/>
-                        <label htmlFor="3">Trajet Aller-Retour</label>
-                    </div>
-                    <div className="submit-container"><button className="submit" type="submit">Continuer</button></div>
-                    
-                </form>
+                <Form/>
             </section>
-            </div>
-                <div className="background">
-                    <section style={ sectionStyle }>
-                    </section>
-                </div>
+        </div>
+        <div className="background"></div>
+
+
+            {/* AZUREA LIMOUSINES */}
+
+        <section className="background2">    
+    </section>  
+    <section className="on">
+        <img className="avatar" src={photoAvatar} alt="logo" />
+        <article>  
+            <h2 className="title-article" >azurea limousines </h2>
+            <p>Azuréa Limousine vous accompagne dans tous vos déplacements d’affaires ou d’ordre privé en vous proposant un service personnalisé haut de gamme de location de voiture avec nos chauffeurs vtc sur la Côte d’Azur. Azuréa Limousine met à votre disposition un service de location de voitures luxueuses, de la berline au mini van, avec des chauffeurs privés bilingues. Notre prestation de location limousine avec chauffeur particulier offre à notre clientèle exigeante un service haut de gamme conjuguant liberté et rapidité de déplacement, élégance et efficacité. </p>
+        </article>
+    <h3 className="titleH3">Nos Flottes</h3>
+    <Grid/> 
+    </section>
+
+    {/* AZUREA SERVICES */}
+
+    <div className="background3">
+        <h3 className="titleH3a" >azurea service </h3>
+          <Grid2/>
+     </div>  
+
+     {/* ST TROPEZ */}
+     <h3 className="titleH3b" >Les incontournables à faire à Saint-Tropez </h3>
+        <Grid3/>
+
+    {/* FOOTER PAGE */}
+    <div className="background4">
+        <img className="logoTransparent2" src={logoTransparent} alt="logoTransparent" />
+        <p className="text">A partir de ou à destination de l’aéroport ou de la gare, depuis ou vers la région de St-Tropez, nos chauffeurs tous bilingues et expérimentés vous attendent, vous accueillent, vous aident à transporter vos bagages.</p>
+        <img className="galerie" src={galerie} alt="galerie" />           
+            <br />
+            <br />
+            <br />
+            <br />
+        <Footer/>
+        </div>
+
     </div>
 )
 
