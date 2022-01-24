@@ -1,37 +1,20 @@
 import React from "react";
-import car1 from "../assets/svg/car1.svg";
-import car2 from "../assets/svg/car2.svg";
-import car3 from "../assets/svg/car3.svg";
 
-const Footer =()=>{
+const Footer=()=>{
     return(
-        <div className="footer">
-            <div>
-                <div className="card">
-                    <img src={car1}/> 
-                    <h4>BERLINES</h4>
-                <p>Classe E (ou similaire)</p>
-                </div>
-               
-            </div>
-            <div>
-                <div className="card">
-                    <img src={car2}/>    
-                    <h4>Limousines</h4>
-                <p>Classe S (ou similaire)</p>
-                </div>
-            
-            </div>
-            <div>
-                <div className="card">
-                    <img src={car3}/>  
-                    <h4>Van</h4>
-                <p>Classe V (ou similaire)</p>
-                </div>
-              
-            </div>
-        </div>
+        <div>
+        <nav>
+            <ul className="nav-footer">
+                <li><a>Mentions Légales</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Réservation</a></li>
+                 <li><a>Politique de confidentialité</a></li>
+            </ul>
+        </nav> 
+        <footer className="footer">Copyright © 2021. AZUREA LIMOUSINE . All rights reserved. | BY PLANETAPP</footer> 
+     </div>
     )
+    
 }
 
 export default Footer
