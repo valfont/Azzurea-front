@@ -6,12 +6,14 @@ import localisationBlack from "../assets/svg/localisationBlack.svg";
 
 export default function FormVoyage() {
   return (
+    //   ------------------------------- Block div Droite -------------------------------
     <div className="blockRight">
       <div className="etape">
         <img src={etape} />
       </div>
       <form className="formVoyage">
         <h4 className="h4V">1. Je planifis mon voyage</h4>
+        {/* ---------------------------- Block radio ----------------------------------- */}
         <div className="radio">
           <div className="input-radio-style2">
             <input type="radio" name="reservation" value="reserver" id="1" />
@@ -32,6 +34,7 @@ export default function FormVoyage() {
             </label>
           </div>
         </div>
+        {/* ---------------------------------- Block Input ------------------------------------ */}
         <div className="blockInput1">
           <div className="input-style2">
             <img src={dateBlack} alt="icon" />
