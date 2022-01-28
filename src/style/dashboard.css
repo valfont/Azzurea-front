@@ -1,0 +1,154 @@
+.aside--frame {
+  width: 150px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: #236a82;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside--frame button {
+  padding: 12px;
+  margin: auto;
+  position: static;
+  width: 120px;
+  height: 90px;
+  left: 8px;
+  top: 0px;
+  margin: 1%;
+  background: #236a82;
+  border-style: none;
+  border-radius: 6px;
+  color: #b4d7e1;
+}
+
+button:hover {
+  background: #232323;
+}
+
+.contain--button--frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoIcon {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.search {
+  position: static;
+  width: 1246px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  border-style: none;
+  margin-left: 25px;
+}
+
+.searchBar {
+  position: absolute;
+  left: 10%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  width: 90%;
+}
+
+.table--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 1246px;
+  height: 80%;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  position: absolute;
+  left: 10%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  top: 10%;
+  width: 89%;
+}
+
+.details {
+  position: static;
+  width: 30px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+}
+
+.details--list {
+  list-style: none;
+  display: flex;
+}
+
+.details--list--li {
+  margin-right: 50px;
+}
+.details--table {
+  align-items: flex-start;
+  position: absolute;
+  width: 99%;
+  left: 0%;
+  top: 10%;
+  border-radius: 8%;
+}
+
+.details--table thead {
+  background: #f9fafb;
+  text-align: left;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  height: 60px;
+  border: #e5e7eb;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* gray/500 */
+
+  color: #6b7280;
+}
+
+.details--table td {
+  background: #f9fafb;
+  height: 52px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827;
+}
+
+.button--ajouter {
+  position: absolute;
+  width: 83px;
+  height: 38px;
+  left: 90%;
+  top: -11px;
+
+  background: #236a82;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: white;
+}
+table {
+  border-radius: 8px;
+}

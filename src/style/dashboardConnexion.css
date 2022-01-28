@@ -1,0 +1,94 @@
+.form--connexion {
+  position: absolute;
+  top: 20%;
+  width: 40%;
+  left: 30%;
+  height: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form--connexion p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #215261;
+  margin-bottom: 0;
+  text-align: left;
+  margin-top: 0;
+}
+.form--connexion input {
+  margin-top: 0;
+  height: 2rem;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 1.25rem;
+  height: 1.75rem;
+  width: 95%;
+  padding: 0.5rem;
+}
+.form--connexion input {
+  margin-top: 0;
+  height: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  height: 1.75rem;
+  width: 98%;
+  padding: 0.5rem;
+}
+
+.container--connexion h1 {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #215261;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.container--connexion h3 {
+  font-size: 18px;
+  line-height: 36px;
+  color: #215261;
+  font-weight: 500;
+  margin-bottom: 6%;
+  letter-spacing: 1px;
+  color: #111827;
+}
+
+.submit--annuler {
+  background-color: black;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 1%;
+  width: 49%;
+  margin-bottom: 5%;
+  height: 3rem;
+}
+
+.submit--modifier {
+  background: linear-gradient(0deg, #236a82, #236a82),
+    linear-gradient(180deg, #236a82 0%, #50b2d3 100%), #c4c4c4;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 1%;
+  width: 49%;
+  margin-bottom: 5%;
+  height: 3rem;
+}
+.titre--connexion {
+  text-align: center;
+}
