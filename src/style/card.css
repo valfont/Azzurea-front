@@ -1,0 +1,53 @@
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #236a82;
+  border-radius: 10px;
+  height: 90%;
+  width: 100%;
+  padding-right: 5%;
+}
+.blockRond {
+  width: 35%;
+  margin-right: 10%;
+}
+.rond1 {
+  background: #ffffff;
+  border: 1px solid #236a82;
+  border-radius: 100%;
+  width: 0%;
+  height: 0%;
+  padding: 7%;
+}
+.h4Card {
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+.card p {
+  margin-top: 2%;
+}
+.blockP {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding-left: 30%;
+}
+.pCard {
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.buttonCardAjouter {
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 60%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 6%;
+}

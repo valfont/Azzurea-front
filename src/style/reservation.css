@@ -1,6 +1,6 @@
 .containerRes {
-  width: 100%;
-  height: 80vh;
+  width: auto;
+  height: auto;
   margin-top: 10%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -83,7 +83,7 @@
   display: flex;
   justify-content: space-between;
   width: 92%;
-  height: 11%;
+
   margin-top: 5%;
   margin-left: 5%;
 }
@@ -99,6 +99,7 @@
   border-radius: 30px;
   padding: 2%;
   width: 20%;
+  height: 90%;
 }
 .buttonContinuer {
   font-family: Uber Move;
@@ -112,6 +113,7 @@
   border-radius: 30px;
   padding: 2%;
   width: 20%;
+  height: 90%;
 }
 /* ------------------------------------- Block gauche ------------------------------------ */
 .blockLeft {
@@ -211,7 +213,6 @@
   background-color: #000000;
   border-radius: 8px;
   width: 82%;
-  height: 10%;
   margin-left: 5%;
   margin-top: 1.25rem;
   display: flex;
@@ -240,4 +241,11 @@
   border-radius: 30px;
   padding: 2%;
   width: 30%;
+}
+/* -------------------------------------------- Cards ------------------------------------------ */
+.cardContainer {
+  padding-left: 5%;
+  height: auto;
+  width: auto;
+  display: flex;
 }
