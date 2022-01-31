@@ -39,14 +39,15 @@
 }
 .blockInput1 {
   display: flex;
+  margin-right: 3%;
 }
 .input-style2 {
   margin-left: 1.25rem;
-  margin-right: 1.25rem;
   margin-top: 1.25rem;
   height: 1.6rem;
   width: 90%;
   padding: 0.5rem;
+
   border: 1px solid grey;
   border-radius: 10px;
   margin-left: 5%;

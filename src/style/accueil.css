@@ -279,7 +279,7 @@ h4 {
   color: #000000;
 }
 
-.card {
+.cards {
   display: flex;
   flex-direction: column;
   align-items: center;

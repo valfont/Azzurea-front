@@ -6,52 +6,45 @@ import stTrop4 from "../assets/svg/stTrop4.svg";
 import stTrop5 from "../assets/svg/stTrop5.svg";
 import stTrop6 from "../assets/svg/stTrop6.svg";
 
-
-const Grid3 =()=>{
-    return(
-        <div className="marginAuto">
-        <div className="grid3">
+const Grid3 = () => {
+  return (
+    <div className="marginAuto">
+      <div className="grid3">
         <div>
-            <div className="card">
-                <img className="img-grid" src={stTrop1}/> 
-            </div>
-           
+          <div className="cards">
+            <img className="img-grid" src={stTrop1} />
+          </div>
         </div>
         <div>
-            <div className="card">
-                <img className="img-grid" src={stTrop2}/>    
-            </div>
-        
+          <div className="cards">
+            <img className="img-grid" src={stTrop2} />
+          </div>
         </div>
         <div>
-            <div className="card">
-                <img className="img-grid" src={stTrop3}/>  
-            </div>
-          
+          <div className="cards">
+            <img className="img-grid" src={stTrop3} />
+          </div>
         </div>
         <div>
-            <div className="card">
-                <img className="img-grid" src={stTrop4}/> 
-            </div>
-           
+          <div className="cards">
+            <img className="img-grid" src={stTrop4} />
+          </div>
         </div>
         <div>
-            <div className="card">
-                <img className="img-grid" src={stTrop5}/>    
-            </div>
-        
+          <div className="cards">
+            <img className="img-grid" src={stTrop5} />
+          </div>
         </div>
         <div>
-            <div className="card">
-                <img className="img-grid" src={stTrop6}/>  
-            </div>
-          
+          <div className="cards">
+            <img className="img-grid" src={stTrop6} />
+          </div>
         </div>
+      </div>
+      <br />
+      <br />
     </div>
-    <br />
-    <br />
-     </div>
-    )
-}
+  );
+};
 
-export default Grid3
+export default Grid3;

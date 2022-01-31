@@ -1,7 +1,5 @@
 import React from "react";
 import "../style/card.css";
-import personne from "../assets/svg/personne.svg";
-import bagage from "../assets/svg/bagage.svg";
 
 export default function Card({
   title,
