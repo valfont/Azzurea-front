@@ -2,13 +2,16 @@
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid #236a82;
   border-radius: 10px;
-  height: 90%;
+  height: 100%;
   width: 100%;
-  padding-right: 5%;
+  padding: 2%;
+
+  margin-right: 5%;
 }
 .blockRond {
   width: 35%;
   margin-right: 10%;
+  background-color: red;
 }
 .rond1 {
   background: #ffffff;
@@ -17,12 +20,19 @@
   width: 0%;
   height: 0%;
   padding: 7%;
+  margin-left: 100%;
 }
 .h4Card {
-  margin-top: 10%;
   margin-bottom: 0%;
+  margin-top: 0%;
 }
-
+.imageCardL {
+  margin-bottom: 5.5%;
+}
+.imageCardV {
+  margin-bottom: 6%;
+  margin-top: 2%;
+}
 .card p {
   margin-top: 2%;
 }
@@ -48,6 +58,11 @@
   border-radius: 30px;
   width: 60%;
   margin-top: 10%;
-  margin-bottom: 10%;
   padding: 6%;
+}
+.imgSiège {
+  width: 44%;
+}
+.imageSiègeBB {
+  width: 63%;
 }

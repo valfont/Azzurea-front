@@ -15,7 +15,7 @@
 }
 /* ------------------------------------- Block droite ------------------------------------- */
 .blockRight {
-  width: 50%;
+  width: 60%;
 }
 .etape {
   width: 100%;
@@ -25,7 +25,7 @@
 .h4V {
   text-align: start;
   margin-left: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .input-radio-style2 {
   font-family: Uber Move;
@@ -118,10 +118,9 @@
 /* ------------------------------------- Block gauche ------------------------------------ */
 .blockLeft {
   background-color: aqua;
-  width: 25%;
-
+  width: 20%;
+  height: 60%;
   padding: 2%;
-
   background: #000000;
   opacity: 0.8;
   border-radius: 8px;
